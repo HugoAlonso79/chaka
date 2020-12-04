@@ -1,0 +1,289 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+    <!--main content start-->
+    <section id="main-content">
+      <section class="wrapper">
+        <!--overview start-->
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="page-header"><i class="fa fa-laptop"></i> Panel general </h3>
+            <ol class="breadcrumb">
+              <li><i class="fa fa-home"></i><a href="index.html">Inicio</a></li>
+              <li><i class="fa fa-laptop"></i>Panel General</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="info-box blue-bg">
+              <i class="fa fa-eye"></i>
+              <div class="count">6.674</div>
+              <div class="title">Vistas</div>
+            </div>
+            <!--/.info-box-->
+          </div>
+          <!--/.col-->
+
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="info-box brown-bg">
+              <i class="fa fa-shopping-cart"></i>
+              <div class="count">7.538</div>
+              <div class="title">Ventas</div>
+            </div>
+            <!--/.info-box-->
+          </div>
+          <!--/.col-->
+
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="info-box dark-bg">
+              <i class="fa fa-list-alt"></i>
+              <div class="count">4.362</div>
+              <div class="title">Pedidos</div>
+            </div>
+            <!--/.info-box-->
+          </div>
+          <!--/.col-->
+
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="info-box green-bg">
+              <i class="fa fa-cubes"></i>
+              <div class="count">1.426</div>
+              <div class="title">Stock</div>
+            </div>
+            <!--/.info-box-->
+          </div>
+          <!--/.col-->
+
+        </div>
+        <!--/.row-->
+
+        <!-- Today status end -->
+
+        <div class="row">
+
+          <div class="col-lg-9 col-md-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2><i class="fa fa-cube"></i><strong>Mis productos más vendidos</strong></h2>
+              </div>
+              <div class="panel-body">
+                <table class="table bootstrap-datatable countries">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Producto</th>
+                      <th>Ventas</th>
+                      <th>Stock</th>
+                      <th>Precio</th>
+                      <th>Vendidos/Stock</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><img src="img/Germany.png" style="height:18px; margin-top:-2px;"></td>
+                      <td>Chifles</td>
+                      <td>2563</td>
+                      <td>1025</td>
+                      <td>S/20</td>
+                      <td>
+                        <div class="progress thin">
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width: 73%">
+                          </div>
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100" style="width: 27%">
+                          </div>
+                        </div>
+                        <span class="sr-only">73%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="img/India.png" style="height:18px; margin-top:-2px;"></td>
+                      <td>Casaca de lana de alpaca</td>
+                      <td>3652</td>
+                      <td>2563</td>
+                      <td>S/20</td>
+                      <td>
+                        <div class="progress thin">
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width: 57%">
+                          </div>
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100" style="width: 43%">
+                          </div>
+                        </div>
+                        <span class="sr-only">57%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="img/Spain.png" style="height:18px; margin-top:-2px;"></td>
+                      <td>Bordado de lana</td>
+                      <td>562</td>
+                      <td>452</td>
+                      <td>S/20</td>
+                      <td>
+                        <div class="progress thin">
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
+                          </div>
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100" style="width: 7%">
+                          </div>
+                        </div>
+                        <span class="sr-only">93%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="img/India.png" style="height:18px; margin-top:-2px;"></td>
+                      <td>Casaca de cuero</td>
+                      <td>1258</td>
+                      <td>958</td>
+                      <td>S/20</td>
+                      <td>
+                        <div class="progress thin">
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                          </div>
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                          </div>
+                        </div>
+                        <span class="sr-only">70%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="img/Spain.png" style="height:18px; margin-top:-2px;"></td>
+                      <td>Vasija de porcelana</td>
+                      <td>4856</td>
+                      <td>3621</td>
+                      <td>S/20</td>
+                      <td>
+                        <div class="progress thin">
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                          </div>
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+                          </div>
+                        </div>
+                        <span class="sr-only">65%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="img/Germany.png" style="height:18px; margin-top:-2px;"></td>
+                      <td>Cecina</td>
+                      <td>265</td>
+                      <td>102</td>
+                      <td>S/20</td>
+                      <td>
+                        <div class="progress thin">
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                          </div>
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+                          </div>
+                        </div>
+                        <span class="sr-only">65%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="img/Germany.png" style="height:18px; margin-top:-2px;"></td>
+                      <td>Tazas floreadas</td>
+                      <td>265</td>
+                      <td>102</td>
+                      <td>S/20</td>
+                      <td>
+                        <div class="progress thin">
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                          </div>
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                          </div>
+                        </div>
+                        <span class="sr-only">60%</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="img/Germany.png" style="height:18px; margin-top:-2px;"></td>
+                      <td>Polo marca Perú</td>
+                      <td>265</td>
+                      <td>102</td>
+                      <td>S/20</td>
+                      <td>
+                        <div class="progress thin">
+                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                          </div>
+                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                          </div>
+                        </div>
+                        <span class="sr-only">55%</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+
+          </div>
+          <!--/col-->
+          <div class="col-md-3">
+
+            <div class="social-box facebook">
+              <i class="fa fa-thumbs-up"></i>
+              <ul> 
+                <li>              
+                  <strong>256k</strong>
+                  <span>Me gusta</span>
+                </li>
+                <li>              
+                  <strong>5</strong>
+                  <span>productos</span>
+                </li>
+              </ul>
+            </div>
+            <!--/social-box-->
+          </div>
+          <div class="col-md-3">
+
+            <div class="social-box google-plus">
+              <i class="fa fa-heart"></i>
+              <ul>
+                <li>
+                  <strong>962</strong>
+                  <span>Recomendaciones</span>
+                </li>
+                <li>
+                  <strong>256</strong>
+                  <span>productos</span>
+                </li>
+              </ul>
+            </div>
+            <!--/social-box-->
+
+          </div>
+          <!--/col-->
+          <div class="col-md-3">
+
+            <div class="social-box twitter">
+              <i class="fa fa-thumbs-down"></i>
+              <ul>
+                <li>
+                  <strong>1562k</strong>
+                  <span>Me disgusta</span>
+                </li>
+                <li>
+                  <strong>2562</strong>
+                  <span>produtos</span>
+                </li>
+              </ul>
+            </div>
+            <!--/social-box-->
+
+          </div>
+          <!--/col-->
+
+        </div>
+
+        <!-- statics end -->
+
+
+
+    </section>
+    <!--main content end-->
+
+  </section>
+  <!-- container section start -->
+
+  {% endblock %}

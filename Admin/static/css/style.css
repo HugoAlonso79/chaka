@@ -2390,7 +2390,6 @@ div[data-role="editor-toolbar"] {
 
 }
 
-}
 
 .panel.panel-default.panel-heading {
 
@@ -3922,8 +3921,6 @@ div[data-role="editor-toolbar"] {
 
 /*badge*/
 
-
-
 .badge.bg-primary {
 
     background: #688a7e;
@@ -3950,7 +3947,7 @@ div[data-role="editor-toolbar"] {
 
 .badge.bg-important {
 
-    background: #00a0df;
+    background: #029aff;
 
     font-family: 'Lato', sans-serif;
 
